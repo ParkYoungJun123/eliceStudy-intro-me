@@ -1,0 +1,68 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-color: #434242;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav ul li {
+  padding: 15px;
+  transition: letter-spacing 0.3s linear;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+nav ul li:hover {
+  background-color: darkgray;
+  letter-spacing: 4px;
+}
+
+main {
+  margin: 32px;
+  display: block;
+}
+main #name {
+  font-size: 48px;
+}
+main .profile {
+  width: 320px;
+  height: 420px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+main .profile img {
+  transition: transform 0.5s linear;
+}
+
+main .profile img:hover {
+  transform: scale(1.2);
+}
+
+main #cv {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+main #cv section {
+  margin: 20px;
+}
+main #cv section .sub-title {
+  font-size: 32px;
+}
+
+footer {
+  background-color: gray;
+  padding: 40px 40px 55px 40px;
+}
+footer p {
+  display: flex;
+  align-items: center;
+}
